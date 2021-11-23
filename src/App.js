@@ -16,7 +16,7 @@ const todos = [
 
 function App() {
   return (
-    <React.Fragment className="App">
+    <React.Fragment>
       <TodoCounter />
       <TodoSearch />
       {<TodoList>
